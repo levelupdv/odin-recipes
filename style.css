@@ -1,0 +1,87 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+h1,
+h2,
+h3 {
+    color: #14213d;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+.mainul {
+    text-align: center;
+    text-decoration: none;
+}
+
+.mainul li {
+    list-style: none;
+}
+
+.pageul {
+    list-style: none;
+    padding: 1em 1em 1em 4em;
+}
+
+.pageul li::before {
+    content: "• ";
+    color: #fca311;
+}
+
+a {
+    color: #14213d;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.pageimgs {
+
+    width: 597px;
+    height: 598px;
+}
+
+.thumpnails {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 160px;
+    height: auto;
+}
+
+.pageol li::marker {
+    content: "Step " counter(list-item) ": ";
+    color: #fca311;
+    font-weight: bold;
+}
+
+ol {
+    padding: 1em 1em 1em 5em;
+    width: 500px;
+}
+
+.homelinks {
+    text-align: center;
+}
+
+.mainimg {
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 597px;
+    height: auto;
+}
+
+.pagep {
+    width: 600px;
+
+}
