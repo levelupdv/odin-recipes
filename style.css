@@ -30,6 +30,7 @@ body {
 .pageul {
     list-style: none;
     padding: 1em 1em 1em 4em;
+    line-height: 1.5;
 }
 
 .pageul li::before {
@@ -84,4 +85,8 @@ ol {
 .pagep {
     width: 600px;
 
+}
+
+.pageol {
+    line-height: 1.5;
 }
